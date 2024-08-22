@@ -15,7 +15,7 @@ function Calculator() {
 
   return (
     <div className="calculator">
-      <h1 style={{ color: "blue" }}>Calculator</h1>
+      <h1 style={{ color: "red" }}>Calculator</h1>
       <input
         type="number"
         value={num1}
@@ -38,5 +38,4 @@ function Calculator() {
     </div>
   );
 }
-
 export default Calculator;
